@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71CF5BD255F5DE70097B9A6 /* AutomaticDockTileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CF5BC255F5DE70097B9A6 /* AutomaticDockTileApp.swift */; };
+		E71CF5BF255F5DE70097B9A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CF5BE255F5DE70097B9A6 /* ContentView.swift */; };
+		E71CF5C1255F5DE70097B9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71CF5C0255F5DE70097B9A6 /* Assets.xcassets */; };
+		E71CF5C4255F5DE70097B9A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71CF5C3255F5DE70097B9A6 /* Preview Assets.xcassets */; };
+		E71CF5CE255F5E0F0097B9A6 /* DockTilePlugin.plugin in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = E723CC8D255F120F002B9061 /* DockTilePlugin.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7217CEF255F14C800262CDC /* DockTilePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7217CEE255F14C800262CDC /* DockTilePlugin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E71CF5CF255F5E0F0097B9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7ACA374255F02BC00CA8F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E723CC8C255F120F002B9061;
+			remoteInfo = DockTilePlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E71CF5D1255F5E0F0097B9A6 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E71CF5CE255F5E0F0097B9A6 /* DockTilePlugin.plugin in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E71CF5BA255F5DE70097B9A6 /* AutomaticDockTile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomaticDockTile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71CF5BC255F5DE70097B9A6 /* AutomaticDockTileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticDockTileApp.swift; sourceTree = "<group>"; };
+		E71CF5BE255F5DE70097B9A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E71CF5C0255F5DE70097B9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E71CF5C3255F5DE70097B9A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E71CF5C5255F5DE70097B9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7217CEE255F14C800262CDC /* DockTilePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockTilePlugin.swift; sourceTree = "<group>"; };
+		E723CC8D255F120F002B9061 /* DockTilePlugin.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockTilePlugin.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		E723CC8F255F120F002B9061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7ACA399255F031E00CA8F5D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71CF5B7255F5DE70097B9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E723CC8A255F120F002B9061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E71CF5BB255F5DE70097B9A6 /* AutomaticDockTile */ = {
+			isa = PBXGroup;
+			children = (
+				E71CF5BC255F5DE70097B9A6 /* AutomaticDockTileApp.swift */,
+				E71CF5BE255F5DE70097B9A6 /* ContentView.swift */,
+				E71CF5C0255F5DE70097B9A6 /* Assets.xcassets */,
+				E71CF5C5255F5DE70097B9A6 /* Info.plist */,
+				E71CF5C2255F5DE70097B9A6 /* Preview Content */,
+			);
+			path = AutomaticDockTile;
+			sourceTree = "<group>";
+		};
+		E71CF5C2255F5DE70097B9A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E71CF5C3255F5DE70097B9A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E723CC8E255F120F002B9061 /* DockTilePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				E7217CEE255F14C800262CDC /* DockTilePlugin.swift */,
+				E723CC8F255F120F002B9061 /* Info.plist */,
+			);
+			path = DockTilePlugin;
+			sourceTree = "<group>";
+		};
+		E7ACA373255F02BC00CA8F5D = {
+			isa = PBXGroup;
+			children = (
+				E71CF5BB255F5DE70097B9A6 /* AutomaticDockTile */,
+				E723CC8E255F120F002B9061 /* DockTilePlugin */,
+				E7ACA398255F031E00CA8F5D /* Frameworks */,
+				E7ACA37D255F02BC00CA8F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7ACA37D255F02BC00CA8F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E723CC8D255F120F002B9061 /* DockTilePlugin.plugin */,
+				E71CF5BA255F5DE70097B9A6 /* AutomaticDockTile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7ACA398255F031E00CA8F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7ACA399255F031E00CA8F5D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E71CF5B9255F5DE70097B9A6 /* AutomaticDockTile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71CF5C7255F5DE70097B9A6 /* Build configuration list for PBXNativeTarget "AutomaticDockTile" */;
+			buildPhases = (
+				E71CF5B6255F5DE70097B9A6 /* Sources */,
+				E71CF5B7255F5DE70097B9A6 /* Frameworks */,
+				E71CF5B8255F5DE70097B9A6 /* Resources */,
+				E71CF5D1255F5E0F0097B9A6 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71CF5D0255F5E0F0097B9A6 /* PBXTargetDependency */,
+			);
+			name = AutomaticDockTile;
+			productName = AutomaticDockTile;
+			productReference = E71CF5BA255F5DE70097B9A6 /* AutomaticDockTile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E723CC8C255F120F002B9061 /* DockTilePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E723CC90255F120F002B9061 /* Build configuration list for PBXNativeTarget "DockTilePlugin" */;
+			buildPhases = (
+				E723CC89255F120F002B9061 /* Sources */,
+				E723CC8A255F120F002B9061 /* Frameworks */,
+				E723CC8B255F120F002B9061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockTilePlugin;
+			productName = DockTilePlugin;
+			productReference = E723CC8D255F120F002B9061 /* DockTilePlugin.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7ACA374255F02BC00CA8F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E71CF5B9255F5DE70097B9A6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E723CC8C255F120F002B9061 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = E7ACA377255F02BC00CA8F5D /* Build configuration list for PBXProject "AutomaticDockTile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7ACA373255F02BC00CA8F5D;
+			productRefGroup = E7ACA37D255F02BC00CA8F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E71CF5B9255F5DE70097B9A6 /* AutomaticDockTile */,
+				E723CC8C255F120F002B9061 /* DockTilePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E71CF5B8255F5DE70097B9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71CF5C4255F5DE70097B9A6 /* Preview Assets.xcassets in Resources */,
+				E71CF5C1255F5DE70097B9A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E723CC8B255F120F002B9061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71CF5B6255F5DE70097B9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71CF5BF255F5DE70097B9A6 /* ContentView.swift in Sources */,
+				E71CF5BD255F5DE70097B9A6 /* AutomaticDockTileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E723CC89255F120F002B9061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7217CEF255F14C800262CDC /* DockTilePlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E71CF5D0255F5E0F0097B9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E723CC8C255F120F002B9061 /* DockTilePlugin */;
+			targetProxy = E71CF5CF255F5E0F0097B9A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E71CF5C8255F5DE70097B9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AutomaticDockTile/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AutomaticDockTile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E71CF5C9255F5DE70097B9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AutomaticDockTile/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AutomaticDockTile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E723CC91255F120F002B9061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DockTilePlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		E723CC92255F120F002B9061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DockTilePlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		E7ACA38D255F02BD00CA8F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7ACA38E255F02BD00CA8F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71CF5C7255F5DE70097B9A6 /* Build configuration list for PBXNativeTarget "AutomaticDockTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71CF5C8255F5DE70097B9A6 /* Debug */,
+				E71CF5C9255F5DE70097B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E723CC90255F120F002B9061 /* Build configuration list for PBXNativeTarget "DockTilePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E723CC91255F120F002B9061 /* Debug */,
+				E723CC92255F120F002B9061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7ACA377255F02BC00CA8F5D /* Build configuration list for PBXProject "AutomaticDockTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7ACA38D255F02BD00CA8F5D /* Debug */,
+				E7ACA38E255F02BD00CA8F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7ACA374255F02BC00CA8F5D /* Project object */;
+}
